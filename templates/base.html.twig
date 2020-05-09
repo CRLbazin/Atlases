@@ -2,11 +2,23 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}{{params.website.title}}{% endblock %}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta content="{{params.website.description}}" name="description" />
+        <meta content="CRLBazin" name="author" />
+		
+        <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
+		
+        <link href="{{ asset('css/app-modern.min.css')}}" rel="stylesheet" type="text/css" />
+		<link href="{{ asset('css/app.css')}}" rel="stylesheet" type="text/css" />
+		
+        {% block stylesheets %}
+			<script src="https://kit.fontawesome.com/5b7521421d.js" crossorigin="anonymous"></script>
+		{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+		{% block body %}{% endblock %}
+		{% block javascript %}
+		{% endblock %}
+	</body>	
 </html>

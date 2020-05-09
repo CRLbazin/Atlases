@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="file.ext">
+		<body>
+			<!-- ******************************** -->
+			<!-- CORE -->
+			<!-- ******************************** -->
+			<trans-unit id="home">
+				<source>Home</source>
+				<target>Accueil</target>
+			</trans-unit>
+			
+			<trans-unit id="email">
+				<source>email</source>
+				<target>Email</target>
+			</trans-unit>
+			<trans-unit id="email.placeholder">
+				<source>email.placeholder</source>
+				<target>Entrez votre email</target>
+			</trans-unit>
+			
+			<trans-unit id="password">
+				<source>password</source>
+				<target>Mot de passe</target>
+			</trans-unit>
+			<trans-unit id="password.placeholder">
+				<source>password.placeholder</source>
+				<target>Entrez votre mot de passe</target>
+			</trans-unit>
+			<trans-unit id="password.forgotten">
+				<source>password.forgotten</source>
+				<target>Mot de passe oublié</target>
+			</trans-unit>
+			
+			<!-- ******************************** -->
+			<!-- USER -->
+			<!-- ******************************** -->
+			<trans-unit id="security.signin">
+				<source>security.signin</source>
+				<target>Se connecter</target>
+			</trans-unit>
+			<trans-unit id="security.signin.introduction">
+				<source>security.signin.introduction</source>
+				<target>Entrez votre email et votre mot de passe pour accéder à la plateforme</target>
+			</trans-unit>
+			<trans-unit id="security.rememberme">
+				<source>security.rememberme</source>
+				<target>Rester connecter</target>
+			</trans-unit>
+			<trans-unit id="security.login">
+				<source>security.login</source>
+				<target>Se connecter</target>
+			</trans-unit>
+			<trans-unit id="security.no-account">
+				<source>security.no-account</source>
+				<target>Vous n'avez pas de compte</target>
+			</trans-unit>
+			<trans-unit id="security.register">
+				<source>security.register</source>
+				<target>S'inscrire</target>
+			</trans-unit>
+			
+			
+		</body>
+	</file>
+</xliff>
