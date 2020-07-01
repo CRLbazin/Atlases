@@ -1,2 +1,2 @@
 # Atlases
-A fully featured platform that can be used to manage all your small or large projects
+A fully featured platform and PMP thinking *(Project Management Professional)* that can be used to manage all your projects
